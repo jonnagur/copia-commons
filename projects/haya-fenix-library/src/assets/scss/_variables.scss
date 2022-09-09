@@ -1,0 +1,36 @@
+$font-weight-base: 400;
+$font-weight-bold: 700;
+$headings-font-weight: 700;
+$font-family-sans-serif: 'Gilroy', 'Barlow Condensed', Helvetica, Arial, sans-serif;
+$font-family-sans-serif-secondary: 'GilroyBold', 'Hind', 'Barlow Condensed', Helvetica, Arial, sans-serif;
+$bold: 'GilroyBold', 'Hind', 'Barlow Condensed', Helvetica, Arial, sans-serif;
+
+$btn-border-radius: 1.5rem;
+$btn-border-radius-sm: 0.75 * $btn-border-radius;
+$btn-border-radius-lg: 1.25 * $btn-border-radius;
+
+
+
+$primary: #0a95d6;
+$secondary: #88cebc;
+$terciary: #848484;
+$orange: #de7676;
+$lightgray: #ebebeb;
+$textgray: #949494;
+$disabledgray: #CBCBCB;
+$fondo: #F7F7F7;
+$darkgray: #3b3b3b;
+
+$sombras-contenedores: 0px 0px 59px -1px rgba(0, 0, 0, 0.15);
+$sombras-contenedores2: 0px 0px 10px 2px rgba(187, 187, 187, 0.2);
+
+$radio-contenedores: 8px;
+
+$custom-file-text: (
+  en: "Browse",
+  es: "Examinar",
+);
+
+//@import "../../../node_modules/bootstrap/scss/functions";
+//@import "../../../node_modules/bootstrap/scss/variables";
+//@import "../../../node_modules/bootstrap/scss/mixins";

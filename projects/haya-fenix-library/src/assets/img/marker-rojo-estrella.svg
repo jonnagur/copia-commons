@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="25.333" viewBox="0 0 19 25.333">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="11" height="11" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1658" data-name="Grupo 1658" transform="translate(-482 -500.829)">
+    <path id="Icon_awesome-map-marker" data-name="Icon awesome-map-marker" d="M8.524,24.822C1.334,14.4,0,13.33,0,9.5a9.5,9.5,0,1,1,19,0c0,3.83-1.334,4.9-8.524,15.322a1.188,1.188,0,0,1-1.953,0Z" transform="translate(482 500.829)" fill="#f45c8b"/>
+    <g id="Componente_187_128" data-name="Componente 187 – 128" transform="translate(486 505)" clip-path="url(#clip-path)">
+      <path id="Trazado_157" data-name="Trazado 157" d="M5.5,0,7.219,3.355,11,3.892,8.25,6.509,8.869,10.2,5.5,8.455,2.131,10.2,2.75,6.509,0,3.892l3.781-.537Z" fill="#fff"/>
+      <rect id="Rectángulo_1449" data-name="Rectángulo 1449" width="11" height="11" fill="none"/>
+    </g>
+  </g>
+</svg>

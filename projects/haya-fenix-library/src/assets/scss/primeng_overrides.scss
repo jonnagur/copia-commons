@@ -1,0 +1,377 @@
+// Puesto aquí para que se aplique a PrimeNG
+.select {
+  .field-wrap {
+    .ui-dropdown,
+    .ui-multiselect {
+      border: none;
+      background: none;
+      min-width: 80%;
+      display: block;
+      padding-right: 25px;
+      text-overflow: ellipsis;
+
+      .ui-dropdown-label,
+      .ui-multiselect-label {
+        margin: 0;
+        padding: 0;
+        background: none;
+        color: $darkgray;
+      }
+
+      .ui-dropdown-trigger,
+      .ui-multiselect-trigger {
+        display: none;
+      }
+    }
+
+    .ui-dropdown-label-container,
+    .ui-multiselect-label-container {
+      margin-left: 10px;
+      overflow: hidden;
+    }
+
+    * {
+      outline: none !important;
+      box-shadow: none !important;
+    }
+  }
+}
+
+body p-dropdown.ng-dirty.ng-invalid > .ui-dropdown {
+  border: none;
+}
+
+body .ui-multiselect-panel .ui-multiselect-items .ui-multiselect-item.ui-state-highlight {
+  background-color: #0a95d6;
+}
+
+body .ui-chkbox .ui-chkbox-box.ui-state-active {
+  border-color: #0a95d6;
+  background-color: #0a95d6;
+}
+
+// Stepper
+.stepper-wrap {
+  .ui-steps {
+    .ui-steps-item {
+      .ui-menuitem-link {
+        .ui-steps-number {
+          color: transparent;
+          height: 10px;
+          width: 10px;
+          top: 38px;
+          background: $primary;
+        }
+      }
+    }
+
+    .ui-steps-item.ui-state-highlight {
+      .ui-steps-number {
+        color: transparent;
+        height: 10px;
+        width: 10px;
+        top: 38px;
+        background: white;
+        border: 22px solid lightblue;
+        padding: 5px;
+        top: 16px;
+        opacity: 0.6;
+      }
+    }
+
+    .ui-steps-item:not(.ui-steps-current) {
+      .ui-menuitem-link {
+        .ui-steps-title {
+          margin-top: 50px;
+          width: 25%;
+        }
+      }
+    }
+
+    .ui-steps-item.ui-steps-icomplete {
+      pointer-events: none;
+    }
+  }
+
+  .ui-steps-item {
+    height: 125px;
+    float: left;
+  }
+}
+
+// Tabla
+.table,
+.ui-table {
+  thead,
+  .ui-table-thead {
+    color: 1px solid green;
+
+    th {
+      font-size: 12px;
+      font-weight: 100;
+      color: $terciary;
+      border-bottom: none;
+      padding-bottom: 20px;
+      font-family: $font-family-sans-serif;
+      vertical-align: middle;
+      background: transparent !important;
+      border: none !important;
+
+      img {
+        margin-left: 5px;
+      }
+
+      p.header-p {
+        float: left;
+        margin: 0;
+        width: 80%;
+      }
+
+      .icon {
+        float: right;
+        width: 10%;
+      }
+    }
+  }
+
+  tbody,
+  .ui-table-tbody {
+    > tr {
+      font-size: 12px;
+      font-family: $font-family-sans-serif-secondary;
+      cursor: pointer;
+      color: $terciary;
+
+      td {
+        img {
+          margin-right: 20px;
+        }
+
+        border: none !important;
+        vertical-align: middle !important;
+      }
+
+      td:first-child {
+        padding-right: 0px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+      }
+
+      td:last-child {
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+      }
+    }
+
+    > tr.par {
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+  }
+}
+
+// Paginador
+body .ui-paginator {
+  background: transparent;
+  border: transparent;
+  margin-top: 10px;
+}
+
+body .ui-paginator .ui-paginator-pages .ui-paginator-page.ui-state-active {
+  background-color: $primary;
+}
+
+.table .field {
+  margin: 0;
+  overflow-wrap: break-word;
+}
+
+body .ui-table .ui-sortable-column:not(.ui-state-highlight):hover {
+  background: none;
+}
+
+button.dropdown-item {
+  padding: 2px 9px;
+}
+
+button.dropdown-item app-checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+button.dropdown-item p {
+  right: 10px;
+  position: absolute;
+}
+
+label {
+  padding-right: 2rem;
+}
+
+.chk {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.imagen-buscar {
+  img {
+    cursor: pointer;
+  }
+
+  text-align: right;
+  padding-right: 70px;
+}
+
+//Dropdown lista
+.estilo {
+  .ui-dropdown-panel {
+    left: -120px !important;
+  }
+}
+
+.td-subtabla {
+  .wrap-subtabla {
+    td:first-child {
+      padding-left: 10px;
+    }
+  }
+}
+
+.cabecera {
+
+  font-weight: bold;
+
+  .titulo {
+    font-size: 0.8rem;
+    color: $terciary;
+    font-family: $font-family-sans-serif-secondary;
+    padding-right: 3rem;
+  }
+
+  .resumen {
+    font-family: $font-family-sans-serif-secondary;
+  }
+}
+
+.pagination {
+  li {
+    a {
+      border: none;
+      border-radius: 30px;
+      background-color: lightgrey;
+      color: $terciary;
+      font-size: 10px;
+
+      img {
+        width: 8px;
+        height: 8px;
+      }
+    }
+  }
+}
+
+.table {
+  .field,
+  .header-p {
+    font-family: $font-family-sans-serif;
+  }
+
+  .header-p {
+    color: $textgray;
+  }
+
+  .field {
+    color: $terciary;
+  }
+}
+
+body .ui-table .ui-table-tbody > tr > td {
+  padding: 10px 12px;
+}
+
+.table th .icon i {
+  color: $textgray;
+}
+
+// Estilos tabla cargando
+
+.ui-table-loading.ui-widget-overlay,
+.loading-paginator {
+  background: white;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+// Estilos icono de carga
+.ui-table-loading-icon {
+  color: $primary;
+  font-size: 4em !important;
+  margin-top: -50%;
+  margin-left: -50%;
+}
+
+// Estilos subtabla
+
+tr.tr-subtabla {
+  transition: 0.3s ease;
+}
+
+.subtabla-wrap-button-wrapper {
+  position: absolute;
+  margin-left: -30px;
+  margin-top: -4px;
+}
+
+body .ui-state-disabled,
+body .ui-widget:disabled {
+  opacity: 0.5 !important;
+}
+
+// Estilos toggle
+
+// .toggle .ui-inputswitch .ui-widget {
+//     .ui-inputswitch-slider{
+//         background-color: red !important;
+//     }
+//   }
+
+/** INPUT **/
+
+body .ui-inputtext {
+  border: none;
+  background-color: #ebebeb;
+  padding: 0;
+  margin-left: 10px;
+}
+
+body .ui-inputtext:enabled:focus:not(.ui-state-error) {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: none;
+  border-color: #ebebeb;
+}
+
+.checked input[type="radio"] {
+  background-color: $orange !important;
+}
+
+/* Styles alt drop zone*/
+.virtual-button .btn {
+  padding: 0 2px !important;
+  margin: 0 !important;
+}
+
+.virtual-button .btn {
+  margin-left: 6px !important;
+  height: 20px;
+}
+
+body .ui-inputtext{
+  max-width: 55%;
+}
+@media (max-width: 1399px) {
+  body .ui-inputtext{
+    max-width: 45%;
+  }
+}
+
+

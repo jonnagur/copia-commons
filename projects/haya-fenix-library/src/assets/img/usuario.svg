@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="40" height="40" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="usuario" clip-path="url(#clip-path)">
+    <circle id="Elipse_234" data-name="Elipse 234" cx="20" cy="20" r="20" fill="#0a94d6"/>
+    <path id="Unión_44" data-name="Unión 44" d="M0,370v-2c0-2.2,3.6-4,8-4s8,1.8,8,4v2Zm4-12a4,4,0,1,1,4,4A4,4,0,0,1,4,358Z" transform="translate(12 -342)" fill="#fff"/>
+  </g>
+</svg>

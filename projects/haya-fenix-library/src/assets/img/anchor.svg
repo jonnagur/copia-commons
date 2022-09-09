@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.8" height="23.852" viewBox="0 0 23.8 23.852">
+  <g id="anchor" transform="translate(1.5 1.5)">
+    <ellipse id="Oval" cx="3.12" cy="3.128" rx="3.12" ry="3.128" stroke-width="3" transform="translate(7.28)" stroke="#88cebc" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/>
+    <path id="Path" d="M.4,14.6V0" transform="translate(10 6.256)" fill="none" stroke="#88cebc" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+    <path id="Path-2" data-name="Path" d="M3.12,0H0A10.4,10.4,0,1,0,20.8,0H17.68" transform="translate(0 10.426)" fill="none" stroke="#88cebc" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+  </g>
+</svg>

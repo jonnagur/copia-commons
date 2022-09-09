@@ -5,3 +5,13 @@
 export * from './lib/haya-fenix-library.service';
 export * from './lib/haya-fenix-library.component';
 export * from './lib/haya-fenix-library.module';
+
+export * from './lib/componentes/boton/boton.module';
+export * from './lib/componentes/boton/boton.component';
+export * from './lib/componentes/agenda/agenda.component';
+export * from './lib/componentes/agenda/agenda.module';
+export * from './lib/componentes/campo/campo.component';
+export * from './lib/componentes/campo/campo.module';
+
+export * from './lib/componentes/checkbox/checkbox.component';
+export * from './lib/componentes/checkbox/checkbox.module';

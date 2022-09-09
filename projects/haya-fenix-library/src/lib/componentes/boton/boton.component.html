@@ -1,0 +1,28 @@
+<ng-container *ngIf="mostrar">
+    <ng-container *ngIf="!descargarContenidoEnId; else botonDescargarContenido">
+        <button type="button" class="btn mb-2" href="enlace" (click)="onClickButton($event)"
+            [ngClass]="{'deshabilitado':!habilitado, 'alt' : estilo === 'alt'}">
+            <ng-container *ngTemplateOutlet="buttonContent"></ng-container>
+        </button>
+    </ng-container>
+    <ng-template #botonDescargarContenido>
+        <button type="button" class="btn" href="enlace" (click)="onClickButton($event)"
+            [ngClass]="{'deshabilitado':!habilitado, 'alt' : estilo === 'alt'}" ngxPrint>
+            <ng-container *ngTemplateOutlet="buttonContent"></ng-container>
+        </button>
+    </ng-template>
+
+</ng-container>
+
+<ng-template #buttonContent>
+    {{nombreBoton}}
+    <span class="icon">
+        <ng-container *ngIf="this.helperService.isNotNull(fontAwesome)">
+            <i [class]="'fas ' + claseIcono"></i>
+        </ng-container>
+        <ng-container *ngIf="!this.helperService.isNotNull(fontAwesome)">
+            <!-- Icono local -->
+            <img src="{{rutaImagen}}" alt="">
+        </ng-container>
+    </span>
+</ng-template>

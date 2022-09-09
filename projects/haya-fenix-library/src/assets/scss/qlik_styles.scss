@@ -1,0 +1,280 @@
+/* PANEL DE FILTRADO */
+//div[role=presentation] {display: none; }
+.qv-object, .qv-inner-object, .qv-listbox, [version*="1.1"]{
+	font-family: "Gilroy", "Hind", "Barlow Condensed", Helvetica, Arial, sans-serif !important;
+
+}
+
+#AppNavigationBar .toggle-button {
+	display: none !important;
+	}
+#AppNavigationBar .qv-subtoolbar-button,  #AppNavigationBar .bright.qv-panel-current-selections .wrap, #AppNavigationBar .border-bottom, #AppNavigationBar .border-right{
+	Background-color: White !important;
+	border-bottom: 0px !important;
+	color: rgb(132,132,132) !important;
+	font-family: "Gilroy", "Hind", "Barlow Condensed", Helvetica, Arial, sans-serif !important;
+	}
+	
+#AppNavigationBar .bright.qv-panel-current-selections .item {
+	color: rgb(132,132,132) !important;
+	}
+
+
+/* CAMBIO DE FUENTE EN LOS OBJETOS */
+.lui-popover .qv-object .title .senseloader-text .qui-delayedModal .qv-chart-component .qv-listbox .qv-panel-current-selections .qv-odag-bar .leftOdag .list .odag-nav-point .nav-point-container .odag-nav-point-cell .odag-request-menu .qv-global-selections .single-full-height .lui-popover {
+font-family: "Gilroy", "Hind", "Barlow Condensed", Helvetica, Arial, sans-serif !important;
+}
+
+
+
+.qv-preload-font-bold .qv-inner-object .no-titles{
+font-family: "GilroyBold", "Hind", "Barlow Condensed", Helvetica, Arial, sans-serif !important;
+}
+/* ESTILOS DE FILTROS */
+.qv-collapsed-listbox{
+     position:relative !important;
+     overflow:hidden !important;
+     border:1px solid !important;
+     flex-direction:column !important;
+     border-radius:20px !important;
+	 border-color: rgb(230,230,230) !important;
+	 letter-spacing: 1.5px !important;
+	 transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+	 font-size: 14px !important;
+     line-height: 1.5 !important;
+	 text-transform: uppercase !important;
+	 }
+	 
+.title-wrapper .title {
+	 text-align: center !important;
+	 color: rgb(132,132,132) !important;
+	 }
+
+#AREA div.qv-inner-object.no-titles,#PERFIL div.qv-inner-object.no-titles, #CARTERA  div.qv-inner-object.no-titles,
+	#S_RCA_FILTRO_CARTERA div.qv-inner-object.no-titles, #S_RCA_FILTRO_PROPUESTAS div.qv-inner-object.no-titles, 
+	#S_RCA_FILTRO_ESTIMACIONES div.qv-inner-object.no-titles, #S_RCA_FILTRO_COBROS div.qv-inner-object.no-titles, 
+	#S_RCA_FILTRO_COBROS_TIPO div.qv-inner-object.no-titles, #G_RCA_FILTRO_ACTIVIDAD div.qv-inner-object.no-titles, 
+	#G_RCA_FILTRO_EVOLUTIVO div.qv-inner-object.no-titles, #G_P_FILTRO_ESTIMACIONES div.qv-inner-object.no-titles , #G_P_FILTRO_ACTIVIDAD div.qv-inner-object.no-titles , 
+	#G_RCA_FILTRO_ESTIMACIONES div.qv-inner-object.no-titles , #G_RCA_FILTRO_EVOLUTIVO div.qv-inner-object.no-titles ,
+	#G_RCA_FILTRO_ACTIVIDAD div.qv-inner-object.no-titles , #S_PN_FILTRO_ESTIMACIONES div.qv-inner-object.no-titles, #S_PN_FILTRO_PROPUESTAS div.qv-inner-object.no-titles,
+	#S_PN_SEGMENTACION_CARTERA_SELECTOR div.qv-inner-object.no-titles, #S_PN_SEGMENTACION_EVOLUTIVO_SELECTOR div.qv-inner-object.no-titles,
+	#G_RCA_SEGMENTACION_CARTERA_SELECTOR div.qv-inner-object.no-titles, #G_ST_SEGMENTACION_CARTERA_SELECTOR div.qv-inner-object.no-titles, 
+	#G_F_FORMALIZADAS_SELECTOR div.qv-inner-object.no-titles, #G_F_SEGMENTACION_CARTERA_SELECTOR div.qv-inner-object.no-titles, #G_P_SEGMENTACION_CARTERA_SELECTOR div.qv-inner-object.no-titles,
+	#CLIENTE div.qv-inner-object.no-titles,	#S_RCA_SEGMENTACION_EVOLUTIVO_SELECTOR div.qv-inner-object.no-titles, 	#S_RCA_SEGMENTACION_CARTERA_SELECTOR div.qv-inner-object.no-titles,
+	#CLIENTE_ST div.qv-inner-object.no-titles,#CARTERA_ST div.qv-inner-object.no-titles, #S_PN_BP_SELECTOR div.qv-inner-object.no-titles
+	{
+	font-family: "Gilroy", "Hind", "Barlow Condensed", Helvetica, Arial, sans-serif !important;
+	}
+
+	#S_PN_BP_SELECTOR .qv-collapsed-listbox .title-wrapper .title {
+		font-size: 10px !important;
+
+	}
+ 
+.qv-collapsed-listbox:hover{
+ background-color: rgb(230,230,230) !important;
+ }
+ 
+
+.qv-state-count-bar{display: none !important;}
+/*.qv-listbox-popover{ border-radius:20px;}*/
+
+
+/* ESTILO DE TEXTOS */
+#S_RCA_SEGMENTACION_EVOLUTIVO_TEXTO_METRICAS div.qv-inner-object.no-titles,#S_RCA_SEGMENTACION_EVOLUTIVO_TEXTO_DIMENSIONES div.qv-inner-object.no-titles,
+#S_PN_SEGMENTACION_EVOLUTIVO_TEXTO_METRICAS div.qv-inner-object.no-titles, #S_PN_SEGMENTACION_EVOLUTIVO_TEXTO_DIMENSIONES div.qv-inner-object.no-titles,
+#S_RCA_SEGMENTACION_EVOLUTIVO_TEXTO_ESTIMACIONES div.qv-inner-object.no-titles, #S_PN_BP_TEXTO  div.qv-inner-object.no-titles
+	{
+	font-family: "GilroyBold", "Hind", "Barlow Condensed", Helvetica, Arial, sans-serif !important;
+	}
+
+/* ESTILO DE KPI */
+.measure-wrapper{
+display: none !important;
+}
+
+.kpi-value{
+	 letter-spacing: 1.5px !important;
+	 transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+	 font-size: 12px !important;
+     line-height: 1.5 !important;
+	 text-transform: uppercase !important;
+	 font-family: "Gilroy", "Hind", "Barlow Condensed", Helvetica, Arial, sans-serif !important;
+	 color: rgb(89,89,89) !important;
+}
+
+#S_RCA_INICDENCIAS div.qv-inner-object.no-titles,#S_RCA_BIENES div.qv-inner-object.no-titles, #S_RCA_CONTRATOS  div.qv-inner-object.no-titles, #S_RCA_NOSEGMENTADO div.qv-inner-object.no-titles,
+#S_PN_INICDENCIAS div.qv-inner-object.no-titles, #S_PN_BIENES div.qv-inner-object.no-titles, #S_PN_CONTRATOS div.qv-inner-object.no-titles, #S_PN_NOSEGMENTADO div.qv-inner-object.no-titles,
+#G_ST_TABLA_BUSQUEDAS div.qv-inner-object.no-titles
+
+	{
+	font-family: "Gilroy", "Hind", "Barlow Condensed", Helvetica, Arial, sans-serif !important;
+	}
+
+/*ESTILO DE LAS TABLAS*/
+	/*PRIMER TIPO DE TABLA: CELDAS REDONDEADAS*/
+		#G_ST_TABLA_BUSQUEDAS .qv-object-table, #G_F_ESTADO_PROPUESTAS .qv-object-table, #S_RCA_TABLA_CARTERA .qv-object-table, #S_RCA_TABLA_COBROS .qv-object-table,#S_RCA_TABLA_ESTIMACIONES .qv-object-table,#S_RCA_TABLA_PROPUESTAS .qv-object-table, 
+		#S_PN_TABLA_CARTERA .qv-object-table, #S_PN_TABLA_PROPUESTAS .qv-object-table, #S_PN_TABLA_ESTIMACIONES .qv-object-table, #G_RCA_TABLA_ESTIMACIONES .qv-object-table, #G_ST_TABLA_BUSQUEDAS .qv-object-table, #G_P_TABLA_ESTIMACIONES .qv-object-table,
+		#G_ST_TABLA_BUSQUEDAS .qv-object-table
+		{
+		  font-family: arial, sans-serif;
+		  border-style: hidden !important;
+		  width: 100% !important;
+		}
+		#G_ST_TABLA_BUSQUEDAS table, #G_F_ESTADO_PROPUESTAS table, #S_RCA_TABLA_CARTERA table, #S_RCA_TABLA_COBROS table,#S_RCA_TABLA_ESTIMACIONES table,#S_RCA_TABLA_PROPUESTAS table,
+		#S_PN_TABLA_CARTERA table, #S_PN_TABLA_PROPUESTAS table, #S_PN_TABLA_ESTIMACIONES table, #G_RCA_TABLA_ESTIMACIONES table, #G_ST_TABLA_BUSQUEDAS table, #G_P_TABLA_ESTIMACIONES table,
+		#G_ST_TABLA_BUSQUEDAS table
+		{
+		border-collapse: separate !important;
+		}
+		#G_ST_TABLA_BUSQUEDAS .qv-st-data-cell, #G_F_ESTADO_PROPUESTAS .qv-st-data-cell, #S_RCA_TABLA_CARTERA .qv-st-data-cell, #S_RCA_TABLA_COBROS .qv-st-data-cell, #S_RCA_TABLA_ESTIMACIONES .qv-st-data-cell, #S_RCA_TABLA_PROPUESTAS .qv-st-data-cell,
+		#S_PN_TABLA_CARTERA .qv-st-data-cell, #S_PN_TABLA_PROPUESTAS .qv-st-data-cell, #S_PN_TABLA_ESTIMACIONES .qv-st-data-cell, #G_RCA_TABLA_ESTIMACIONES .qv-st-data-cell, #G_ST_TABLA_BUSQUEDAS .qv-st-data-cell, #G_P_TABLA_ESTIMACIONES .qv-st-data-cell,
+		#G_ST_TABLA_BUSQUEDAS .qv-st-data-cell
+		{
+		  background-color: white !important;
+		  color: white !important;
+		  border-radius: 20px !important;
+		  border: 5px solid white !important;
+		}
+
+		#G_ST_TABLA_BUSQUEDAS .qv-st-data-cell-dimension-value, #G_F_ESTADO_PROPUESTAS .qv-st-data-cell-dimension-value, #S_RCA_TABLA_CARTERA .qv-st-data-cell-dimension-value, #S_RCA_TABLA_COBROS .qv-st-data-cell-dimension-value, #S_RCA_TABLA_ESTIMACIONES .qv-st-data-cell-dimension-value, #S_RCA_TABLA_PROPUESTAS .qv-st-data-cell-dimension-value,
+		#S_PN_TABLA_CARTERA .qv-st-data-cell-dimension-value, #S_PN_TABLA_PROPUESTAS .qv-st-data-cell-dimension-value, #S_PN_TABLA_ESTIMACIONES .qv-st-data-cell-dimension-value, #G_RCA_TABLA_ESTIMACIONES .qv-st-data-cell-dimension-value, #G_ST_TABLA_BUSQUEDAS .qv-st-data-cell-dimension-value, #G_P_TABLA_ESTIMACIONES .qv-st-data-cell-dimension-value,
+		#G_ST_TABLA_BUSQUEDAS .qv-st-data-cell-dimension-value
+		{
+		  background-color: rgb(235,235,235) !important;
+		  color: rgb(134,134,134) !important;
+		  border-radius: 20px !important;
+		  padding-top: 10px !important;
+		  padding-bottom: 10px !important;
+		  border: 5px solid white !important;
+		  font-size: 11px !important;
+		}
+		
+		#G_ST_TABLA_BUSQUEDAS .qv-st-data-cell-numeric, #G_F_ESTADO_PROPUESTAS .qv-st-data-cell-numeric, #S_RCA_TABLA_CARTERA .qv-st-data-cell-numeric, #S_RCA_TABLA_COBROS .qv-st-data-cell-numeric, #S_RCA_TABLA_ESTIMACIONES .qv-st-data-cell-numeric, #S_RCA_TABLA_PROPUESTAS .qv-st-data-cell-numeric,
+		#S_PN_TABLA_CARTERA .qv-st-data-cell-numeric, #S_PN_TABLA_PROPUESTAS .qv-st-data-cell-numeric, #S_PN_TABLA_ESTIMACIONES .qv-st-data-cell-numeric, #G_RCA_TABLA_ESTIMACIONES .qv-st-data-cell-numeric, #G_ST_TABLA_BUSQUEDAS .qv-st-data-cell-numeric, #G_P_TABLA_ESTIMACIONES .qv-st-data-cell-numeric,
+		#G_ST_TABLA_BUSQUEDAS .qv-st-data-cell-numeric
+		{
+		  background-color: rgb(235,235,235) !important;
+		  color: rgb(134,134,134) !important;
+		  border-radius: 20px !important;
+		  padding-top: 10px !important;
+		  padding-bottom: 10px !important;
+		  border: 5px solid white !important;
+		  font-size: 11px !important;
+		}
+		
+		#G_ST_TABLA_BUSQUEDAS .qv-st-data-cell-null-value, #G_F_ESTADO_PROPUESTAS .qv-st-data-cell-null-value, #S_RCA_TABLA_CARTERA .qv-st-data-cell-null-value, #S_RCA_TABLA_COBROS .qv-st-data-cell-null-value, #S_RCA_TABLA_ESTIMACIONES .qv-st-data-cell-null-value, #S_RCA_TABLA_PROPUESTAS .qv-st-data-cell-null-value,
+		#S_PN_TABLA_CARTERA .qv-st-data-cell-null-value, #S_PN_TABLA_PROPUESTAS .qv-st-data-cell-null-value, #S_PN_TABLA_ESTIMACIONES .qv-st-data-cell-null-value, #G_RCA_TABLA_ESTIMACIONES .qv-st-data-cell-null-value, #G_ST_TABLA_BUSQUEDAS .qv-st-data-cell-null-value, #G_P_TABLA_ESTIMACIONES .qv-st-data-cell-null-value,
+		#G_ST_TABLA_BUSQUEDAS .qv-st-data-cell-null-value
+		{
+		  background-color: rgb(235,235,235) !important;
+		  color: rgb(134,134,134) !important;
+		  border-radius: 20px !important;
+		  padding-top: 10px !important;
+		  padding-bottom: 10px !important;
+		  border: 5px solid white !important;
+		  font-size: 11px !important;
+		}
+		.qv-st-header-cell-wrapper {
+		padding-right: 10px !important;
+		padding-left: 1px !important;
+		font-size: 11px !important;
+		}
+		#G_ST_TABLA_BUSQUEDAS .qv-st-data-cell-selected-highlighted, #G_F_ESTADO_PROPUESTAS .qv-st-data-cell-selected-highlighted, #S_RCA_TABLA_CARTERA .qv-st-data-cell-selected-highlighted, #S_RCA_TABLA_COBROS .qv-st-data-cell-selected-highlighted, #S_RCA_TABLA_ESTIMACIONES .qv-st-data-cell-selected-highlighted, #S_RCA_TABLA_PROPUESTAS .qv-st-data-cell-selected-highlighted,
+		#S_PN_TABLA_CARTERA .qv-st-data-cell-selected-highlighted, #S_PN_TABLA_PROPUESTAS .qv-st-data-cell-selected-highlighted, #S_PN_TABLA_ESTIMACIONES .qv-st-data-cell-selected-highlighted, #G_RCA_TABLA_ESTIMACIONES .qv-st-data-cell-selected-highlighted, #G_ST_TABLA_BUSQUEDAS .qv-st-data-cell-selected-highlighted, #G_P_TABLA_ESTIMACIONES .qv-st-data-cell-selected-highlighted,
+		#G_ST_TABLA_BUSQUEDAS .qv-st-data-cell-selected, #G_F_ESTADO_PROPUESTAS .qv-st-data-cell-selected, #S_RCA_TABLA_CARTERA .qv-st-data-cell-selected, #S_RCA_TABLA_COBROS .qv-st-data-cell-selected, #S_RCA_TABLA_ESTIMACIONES .qv-st-data-cell-selected, #S_RCA_TABLA_PROPUESTAS .qv-st-data-cell-selected,
+		#S_PN_TABLA_CARTERA .qv-st-data-cell-selected, #S_PN_TABLA_PROPUESTAS .qv-st-data-cell-selected, #S_PN_TABLA_ESTIMACIONES .qv-st-data-cell-selected, #G_RCA_TABLA_ESTIMACIONES .qv-st-data-cell-selected, #G_ST_TABLA_BUSQUEDAS .qv-st-data-cell-selected, #G_P_TABLA_ESTIMACIONES .qv-st-data-cell-selected,
+		#G_ST_TABLA_BUSQUEDAS .qv-st-data-cell-selected
+		{
+		  
+		background-color: rgba(129, 143, 102, 0.438) !important;
+		}
+		
+/*CHECKBOX*/
+		.checkbox-inline{
+				display: inline-block !important;
+		}
+		#S_RCA_SEGMENTACION_EVOLUTIVO_METRICAS .styled,#S_RCA_SEGMENTACION_EVOLUTIVO_DIMENSIONES .styled,
+		#S_PN_SEGMENTACION_EVOLUTIVO_METRICAS .styled, #S_PN_SEGMENTACION_EVOLUTIVO_DIMENSIONES .styled,
+		#S_RCA_SEGMENTACION_EVOLUTIVO_ESTIMACIONES .styled
+		{
+				margin-right: 4px !important;
+		}
+		#CLIENTE .styled{
+				margin-right: 4px !important;
+				margin-LEFT: 8px !important;
+		}
+		.qs-container .qsc-item-wrapper{
+		border: None !Important;
+		}
+		#S_RCA_SEGMENTACION_EVOLUTIVO_METRICAS div.qv-inner-object.no-titles,#S_RCA_SEGMENTACION_EVOLUTIVO_DIMENSIONES div.qv-inner-object.no-titles,
+		#S_PN_SEGMENTACION_EVOLUTIVO_METRICAS div.qv-inner-object.no-titles, #S_PN_SEGMENTACION_EVOLUTIVO_DIMENSIONES div.qv-inner-object.no-titles,
+		#S_RCA_SEGMENTACION_EVOLUTIVO_ESTIMACIONES div.qv-inner-object.no-titles
+		{
+		font-family: "Gilroy", "Hind", "Barlow Condensed", Helvetica, Arial, sans-serif !important;
+		 color: rgb(134,134,134) !Important;
+		}
+		#S_RCA_SEGMENTACION_EVOLUTIVO_ESTIMACIONES .checkbox-info{
+			display: inline-block !important;
+			margin-right: 4px !important;
+			margin-LEFT: 8px !important;
+		}
+	
+/*LEYENDA ROSCO*/
+
+		#S_RCA_SEGMENTACION_CARTERA_LEYENDA ::-webkit-scrollbar-thumb, #S_PN_SEGMENTACION_CARTERA_LEYENDA ::-webkit-scrollbar-thumb, 
+		#G_RCA_SEGMENTACION_CARTERA_LEYENDA ::-webkit-scrollbar-thumb, #G_ST_SEGMENTACION_CARTERA_LEYENDA ::-webkit-scrollbar-thumb, 
+		#G_F_SEGMENTACION_CARTERA_LEYENDA ::-webkit-scrollbar-thumb, #G_P_SEGMENTACION_CARTERA_LEYENDA ::-webkit-scrollbar-thumb,
+		#S_RCA_TABLA_PROPUESTAS_LEYENDA ::-webkit-scrollbar-thumb{
+		background-color: white !important;
+		}		
+	
+/*CABECERA DE AGENDA */
+		#Agenda_Gestor .cabecera {
+			Display:None !important;
+		}
+		
+@media (min-width: 768px) {
+  .row.equal {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+}
+
+/* ANIMACION BÚSQUEDAS */
+#showMe {
+    -webkit-animation: cssAnimation2 2s forwards; 
+    animation: cssAnimation2 2s forwards;
+}
+@keyframes cssAnimation2 {
+    0%   {opacity: 0;}
+    90%  {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-webkit-keyframes cssAnimation2 {
+    0%   {opacity: 0;}
+    90%  {opacity: 0;}
+    100% {opacity: 1;}
+}
+#hideMe {
+	animation: cssAnimation 0s 2s forwards;
+	visibility: visible;
+  }
+  
+  @keyframes cssAnimation {
+	to   { visibility: hidden; }
+  }
+
+  /* LEYENDA PROPUESTAS */
+
+#S_RCA_TABLA_PROPUESTAS_LEYENDA div.row, #S_RCA_TABLA_PROPUESTAS_LEYENDA div.ng-scope{
+	display: inline-block !important;
+	padding: 2px;
+	padding-right:20px !important;
+	padding-left:20px !important;
+
+}
+
+.lui-icon--search{
+	display: None !important;	
+}

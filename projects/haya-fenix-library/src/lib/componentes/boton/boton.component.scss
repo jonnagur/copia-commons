@@ -1,0 +1,45 @@
+@import "../../../assets/scss/variables";
+
+.btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+    padding-left: 20px;
+    background: $primary;
+    color: white;
+    border-radius: $radio-contenedores;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-family: $font-family-sans-serif-secondary;
+
+    &.alt {
+        background: #0a95d60f;
+        color: $primary;
+        border: 1px solid $primary;
+    }
+
+    i {
+        color: white;
+    }
+}
+
+.icon {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+
+    i {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+}
+
+.deshabilitado {
+    background-color: $disabledgray;
+    pointer-events: none;
+
+    i {
+        color: white;
+    }
+}
