@@ -15,6 +15,8 @@ export * from './lib/componentes/campo/campo.module';
 
 export * from './lib/componentes/checkbox/checkbox.component';
 export * from './lib/componentes/checkbox/checkbox.module';
+export * from './lib/componentes/file-drop/file-drop.component';
+export * from './lib/componentes/file-drop/file-drop.module';
 
 export * from './lib/componentes/radio/radio.component';
 export * from './lib/componentes/radio/radio.module';

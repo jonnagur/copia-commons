@@ -13,7 +13,12 @@ import { RadioComponent } from './componentes/radio/radio.component';
 import { RadioModule } from './componentes/radio/radio.module';
 import { SpinnerComponent } from './componentes/spinner/spinner.component';
 import { SpinnerModule } from './componentes/spinner/spinner.module';
-
+import { FileDropComponent } from './componentes/file-drop/file-drop.component';
+import { FileDropModule } from './componentes/file-drop/file-drop.module';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { createTranslateLoader } from '../services/language/language.service';
+import { HttpClient } from '@angular/common/http';
+import { NgxFileDropModule } from 'ngx-file-drop';
 
 
 @NgModule({
@@ -24,16 +29,26 @@ import { SpinnerModule } from './componentes/spinner/spinner.module';
     CampoComponent,
     CheckboxComponent,
     RadioComponent,
-    SpinnerComponent
+    SpinnerComponent,
+    FileDropComponent
   ],
   imports: [
     CommonModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: createTranslateLoader,
+        deps: [HttpClient]
+      }
+    }),
     BotonModule,
     AgendaModule,
     CampoModule,
     CheckboxModule,
     RadioModule,
-    SpinnerModule
+    SpinnerModule,
+    FileDropModule,
+    NgxFileDropModule
   ],
   exports: [
     HayaFenixLibraryComponent,
@@ -42,7 +57,8 @@ import { SpinnerModule } from './componentes/spinner/spinner.module';
     CampoComponent,
     CheckboxComponent,
     RadioComponent,
-    SpinnerComponent
+    SpinnerComponent,
+    FileDropComponent
   ]
 })
 export class HayaFenixLibraryModule { }
