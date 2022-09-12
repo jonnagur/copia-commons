@@ -17,3 +17,5 @@ export * from './lib/componentes/checkbox/checkbox.component';
 export * from './lib/componentes/checkbox/checkbox.module';
 export * from './lib/componentes/file-drop/file-drop.component';
 export * from './lib/componentes/file-drop/file-drop.module';
+export * from './lib/componentes/pestanas/pestanas.component';
+export * from './lib/componentes/pestanas/pestanas.module';

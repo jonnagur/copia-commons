@@ -15,6 +15,8 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { createTranslateLoader } from '../services/language/language.service';
 import { HttpClient } from '@angular/common/http';
 import { NgxFileDropModule } from 'ngx-file-drop';
+import { PestanasComponent } from './componentes/pestanas/pestanas.component';
+import { PestanasModule } from './componentes/pestanas/pestanas.module';
 
 
 @NgModule({
@@ -24,7 +26,8 @@ import { NgxFileDropModule } from 'ngx-file-drop';
     BotonComponent,
     CampoComponent,
     CheckboxComponent,
-    FileDropComponent
+    FileDropComponent,
+    PestanasComponent
   ],
   imports: [
     CommonModule,
@@ -40,14 +43,16 @@ import { NgxFileDropModule } from 'ngx-file-drop';
     CampoModule,
     CheckboxModule,
     FileDropModule,
-    NgxFileDropModule
+    NgxFileDropModule,
+    PestanasModule
   ],
   exports: [
     HayaFenixLibraryComponent,
     AgendaComponent,
     BotonComponent,
     CampoComponent,
-    CheckboxComponent
+    CheckboxComponent,
+    PestanasComponent
   ]
 })
 export class HayaFenixLibraryModule { }
