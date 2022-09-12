@@ -1,0 +1,42 @@
+<ngx-file-drop [hidden]="styleFormats" dropZoneClassName="drop-zone" contentClassName="drop-content"
+    dropZoneLabel="Drop files here" [accept]="config.format" (onFileDrop)="dropped($event)"
+    (onFileOver)="fileOver($event)" (onFileLeave)="fileLeave($event)" [ngClass]="styleFormats">
+
+    <ng-template ngx-file-drop-content-tmp let-openFileSelector="openFileSelector">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="drop text-center">
+                    <div class="row-fluid text-center">
+                        <div class="imagen-subida imagen-center"><i class="fas fa-cloud-upload-alt fa-3x"></i></div>
+                        <div class="texto-subida">
+                            <p class="text-center" *ngIf="!fileName">{{'generico.aniadirArchivos' | translate}}</p>
+                            <p class="text-center">{{fileName}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row-fluid imagen-center">
+                <div class="boton-subida text-center">
+                    <app-boton [nombreBoton]="textoBoton | translate" [habilitado]="activo"
+                        (eventoClick)="openFileSelector()">
+                    </app-boton>
+                </div>
+            </div>
+        </div>
+    </ng-template>
+</ngx-file-drop>
+
+<div class="virtual-button" *ngIf="styleFormats === 'version-campo'; else conNombre">
+    <app-boton [nombreBoton]="textoBoton | translate" [habilitado]="activo" fontAwesome="folder"
+        (eventoClick)="virtualClickFileAdd()">
+    </app-boton>
+</div>
+
+<ng-template #conNombre>
+    <i *ngIf="documentoExistente" class="fas fa-check green float-left"></i>
+    <div class="virtual-button">
+        <button [ngClass]="tituloNegrita ? 'border-0 ml-3 ml-2 mr-2 font-weight-bold' : 'border-0 ml-3 ml-2 mr-2'"
+            (click)="virtualClickFileAdd()">{{nombreBotonArchivo | translate}} <span *ngIf="tituloNegrita">*</span>
+        </button>
+    </div>
+</ng-template>

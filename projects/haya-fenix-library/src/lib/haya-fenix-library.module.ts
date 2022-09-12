@@ -9,7 +9,12 @@ import { CampoComponent } from './componentes/campo/campo.component';
 import { CampoModule } from './componentes/campo/campo.module';
 import { CheckboxComponent } from './componentes/checkbox/checkbox.component';
 import { CheckboxModule } from './componentes/checkbox/checkbox.module';
-
+import { FileDropComponent } from './componentes/file-drop/file-drop.component';
+import { FileDropModule } from './componentes/file-drop/file-drop.module';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { createTranslateLoader } from '../services/language/language.service';
+import { HttpClient } from '@angular/common/http';
+import { NgxFileDropModule } from 'ngx-file-drop';
 
 
 @NgModule({
@@ -18,14 +23,24 @@ import { CheckboxModule } from './componentes/checkbox/checkbox.module';
     AgendaComponent,
     BotonComponent,
     CampoComponent,
-    CheckboxComponent
+    CheckboxComponent,
+    FileDropComponent
   ],
   imports: [
     CommonModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: createTranslateLoader,
+        deps: [HttpClient]
+      }
+    }),
     BotonModule,
     AgendaModule,
     CampoModule,
-    CheckboxModule
+    CheckboxModule,
+    FileDropModule,
+    NgxFileDropModule
   ],
   exports: [
     HayaFenixLibraryComponent,

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AgendaModule, BotonModule, CampoModule, CheckboxModule, HayaFenixLibraryModule } from 'haya-fenix-library';
+import { AgendaModule, BotonModule, CampoModule, CheckboxModule, FileDropModule, HayaFenixLibraryModule } from 'haya-fenix-library';
 
 import { AppComponent } from './app.component';
 
@@ -14,7 +14,8 @@ import { AppComponent } from './app.component';
     BotonModule,
     AgendaModule,
     CampoModule,
-    CheckboxModule
+    CheckboxModule,
+    FileDropModule
   ],
   providers: [],
   bootstrap: [AppComponent]
