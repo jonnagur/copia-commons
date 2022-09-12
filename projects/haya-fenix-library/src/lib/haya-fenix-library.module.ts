@@ -11,6 +11,8 @@ import { CheckboxComponent } from './componentes/checkbox/checkbox.component';
 import { CheckboxModule } from './componentes/checkbox/checkbox.module';
 import { RadioComponent } from './componentes/radio/radio.component';
 import { RadioModule } from './componentes/radio/radio.module';
+import { SpinnerComponent } from './componentes/spinner/spinner.component';
+import { SpinnerModule } from './componentes/spinner/spinner.module';
 
 
 
@@ -21,7 +23,8 @@ import { RadioModule } from './componentes/radio/radio.module';
     BotonComponent,
     CampoComponent,
     CheckboxComponent,
-    RadioComponent
+    RadioComponent,
+    SpinnerComponent
   ],
   imports: [
     CommonModule,
@@ -29,7 +32,8 @@ import { RadioModule } from './componentes/radio/radio.module';
     AgendaModule,
     CampoModule,
     CheckboxModule,
-    RadioModule
+    RadioModule,
+    SpinnerModule
   ],
   exports: [
     HayaFenixLibraryComponent,
@@ -37,7 +41,8 @@ import { RadioModule } from './componentes/radio/radio.module';
     BotonComponent,
     CampoComponent,
     CheckboxComponent,
-    RadioComponent
+    RadioComponent,
+    SpinnerComponent
   ]
 })
 export class HayaFenixLibraryModule { }

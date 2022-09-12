@@ -18,3 +18,6 @@ export * from './lib/componentes/checkbox/checkbox.module';
 
 export * from './lib/componentes/radio/radio.component';
 export * from './lib/componentes/radio/radio.module';
+
+export * from './lib/componentes/spinner/spinner.component';
+export * from './lib/componentes/spinner/spinner.module';

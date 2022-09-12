@@ -1,0 +1,59 @@
+.spinner-wrapper:not(.small) {
+    .inner-wrapper {
+        width: 50px;
+        .spinner {
+            font-size: 49px;
+            width: 50px;
+            height: 50px;
+        }
+    }
+    .inner-wrapper.spacing {
+        margin: 125px auto;
+    }
+}
+
+.spinner-wrapper.small {
+    .spinner {
+        font-size: 17px;
+    }
+}
+
+// Estilos error
+
+.error-status {
+    width: 100%;
+    border: 1px solid #cecece;
+    background-color: #ececec;
+    border-radius: 5px;
+    margin: 20px 0;
+    .icon {
+        color: red;
+        font-size: 40px;
+        margin: 10px auto -10px auto;
+        width: 28px;
+        padding: 0;
+        i {
+            padding: 0;
+            margin: 0;
+        }
+    }
+    .whoops {
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+        margin: 0;
+    }
+    .error-message {
+        text-align: center;
+    }
+}
+
+.error-status.small {
+    margin: 0px;
+    .icon {
+        font-size: 12px;
+        height: 12px;
+        width: 12px;
+        color: red;
+    }
+}
