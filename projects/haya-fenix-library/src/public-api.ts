@@ -25,3 +25,5 @@ export * from './lib/componentes/radio/radio.module';
 
 export * from './lib/componentes/spinner/spinner.component';
 export * from './lib/componentes/spinner/spinner.module';
+export * from './lib/componentes/wrap-button/wrap-button.component';
+export * from './lib/componentes/wrap-button/wrap-button.module';
