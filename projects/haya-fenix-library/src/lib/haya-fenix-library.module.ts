@@ -9,6 +9,8 @@ import { CampoComponent } from './componentes/campo/campo.component';
 import { CampoModule } from './componentes/campo/campo.module';
 import { CheckboxComponent } from './componentes/checkbox/checkbox.component';
 import { CheckboxModule } from './componentes/checkbox/checkbox.module';
+import { RadioComponent } from './componentes/radio/radio.component';
+import { RadioModule } from './componentes/radio/radio.module';
 
 
 
@@ -18,21 +20,24 @@ import { CheckboxModule } from './componentes/checkbox/checkbox.module';
     AgendaComponent,
     BotonComponent,
     CampoComponent,
-    CheckboxComponent
+    CheckboxComponent,
+    RadioComponent
   ],
   imports: [
     CommonModule,
     BotonModule,
     AgendaModule,
     CampoModule,
-    CheckboxModule
+    CheckboxModule,
+    RadioModule
   ],
   exports: [
     HayaFenixLibraryComponent,
     AgendaComponent,
     BotonComponent,
     CampoComponent,
-    CheckboxComponent
+    CheckboxComponent,
+    RadioComponent
   ]
 })
 export class HayaFenixLibraryModule { }
