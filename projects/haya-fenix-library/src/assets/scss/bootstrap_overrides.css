@@ -1,0 +1,13 @@
+/* Pone el fondo de los modales a blanco */
+ngb-modal-backdrop {
+  background-color: white !important;
+}
+
+.no-after-icon::after {
+  display: none !important;
+}
+
+.agenda-modal .modal-dialog {
+  max-width: 1310px;
+}
+/*# sourceMappingURL=bootstrap_overrides.css.map */

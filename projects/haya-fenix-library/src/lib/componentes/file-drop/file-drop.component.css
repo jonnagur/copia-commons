@@ -1,0 +1,15 @@
+.drop {
+  padding: 20px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.imagen-subida.imagen-center {
+  margin: 0 auto;
+  width: 52px;
+}
+
+.fa-check {
+  margin: 5px 0px 5px 10px;
+}
+/*# sourceMappingURL=file-drop.component.css.map */
