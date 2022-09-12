@@ -1,0 +1,21 @@
+<ng-container *ngIf="show && !error">
+    <div [ngClass]="{'spinner-wrapper': show, 'small': small}">
+        <div [ngClass]="{'inner-wrapper': show, 'spacing': spacing}">
+            <i class="fas fa-spinner spinner"></i>
+        </div>
+    </div>
+</ng-container>
+
+<ng-container *ngIf="error">
+    <div class="error-status" *ngIf="!small">
+        <div class="icon"><i class="fas fa-times"></i></div>
+        <p class="whoops">{{'reutilizables.spinner.noSeHaPodidoEncontrar' | translate }}</p>
+        <div class="error-message">
+            <p>{{'reutilizables.spinner.intenteloMasTarde' | translate}}</p>
+        </div>
+    </div>
+    <div *ngIf="small" class="small">
+        <div class="icon"><i class="fas fa-times"></i></div>
+        <p class="whoops">{{'reutilizables.spinner.error' | translate}}</p>
+    </div>
+</ng-container>

@@ -9,6 +9,10 @@ import { CampoComponent } from './componentes/campo/campo.component';
 import { CampoModule } from './componentes/campo/campo.module';
 import { CheckboxComponent } from './componentes/checkbox/checkbox.component';
 import { CheckboxModule } from './componentes/checkbox/checkbox.module';
+import { RadioComponent } from './componentes/radio/radio.component';
+import { RadioModule } from './componentes/radio/radio.module';
+import { SpinnerComponent } from './componentes/spinner/spinner.component';
+import { SpinnerModule } from './componentes/spinner/spinner.module';
 import { FileDropComponent } from './componentes/file-drop/file-drop.component';
 import { FileDropModule } from './componentes/file-drop/file-drop.module';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
@@ -27,7 +31,10 @@ import { PestanasModule } from './componentes/pestanas/pestanas.module';
     CampoComponent,
     CheckboxComponent,
     FileDropComponent,
-    PestanasComponent
+    PestanasComponent,
+    RadioComponent,
+    SpinnerComponent,
+    FileDropComponent
   ],
   imports: [
     CommonModule,
@@ -42,6 +49,8 @@ import { PestanasModule } from './componentes/pestanas/pestanas.module';
     AgendaModule,
     CampoModule,
     CheckboxModule,
+    RadioModule,
+    SpinnerModule,
     FileDropModule,
     NgxFileDropModule,
     PestanasModule
@@ -52,7 +61,10 @@ import { PestanasModule } from './componentes/pestanas/pestanas.module';
     BotonComponent,
     CampoComponent,
     CheckboxComponent,
-    PestanasComponent
+    PestanasComponent,
+    RadioComponent,
+    SpinnerComponent,
+    FileDropComponent
   ]
 })
 export class HayaFenixLibraryModule { }

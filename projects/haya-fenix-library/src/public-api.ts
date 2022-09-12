@@ -19,3 +19,9 @@ export * from './lib/componentes/file-drop/file-drop.component';
 export * from './lib/componentes/file-drop/file-drop.module';
 export * from './lib/componentes/pestanas/pestanas.component';
 export * from './lib/componentes/pestanas/pestanas.module';
+
+export * from './lib/componentes/radio/radio.component';
+export * from './lib/componentes/radio/radio.module';
+
+export * from './lib/componentes/spinner/spinner.component';
+export * from './lib/componentes/spinner/spinner.module';
