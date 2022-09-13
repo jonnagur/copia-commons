@@ -1,0 +1,28 @@
+<div class="content-fluid" [ngClass]="tipo + ' ' + estilo">
+  <div [ngClass]="{'wrap-big':this.subtitulo, 'wrap':!this.subtitulo}">
+    <div class="imagen">
+      <i (click)="wrapClickAction()" [attr.aria-expanded]="!isCollapsed"
+         aria-controls="collapseExample"
+         [ngClass]="isCollapsed == false ? 'fas fa-chevron-circle-up fa-2x' : 'fas fa-chevron-circle-down fa-2x'"></i>
+      <div class="i-background"></div>
+    </div>
+
+    <div class="titulo-linea" *ngIf="tipo=='basico'">
+      <div class="textos">
+        <div [ngClass]="!widthPersonalizado ? 'titulo' : 'titulo-medium'">
+          <h6> {{titulo}} </h6>
+        </div>
+        <div class="subtitulo">
+          <h3> {{subtitulo}} </h3>
+        </div>
+      </div>
+      <div class="linea">
+        <hr>
+      </div>
+    </div>
+  </div>
+
+  <div id="collapseExample" [ngbCollapse]="isCollapsed" *ngIf="tipo!='separado'">
+    <ng-container [ngTemplateOutlet]="contentTemplate"></ng-container>
+  </div>
+</div>

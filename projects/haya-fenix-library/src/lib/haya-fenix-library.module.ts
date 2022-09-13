@@ -21,6 +21,9 @@ import { HttpClient } from '@angular/common/http';
 import { NgxFileDropModule } from 'ngx-file-drop';
 import { PestanasComponent } from './componentes/pestanas/pestanas.component';
 import { PestanasModule } from './componentes/pestanas/pestanas.module';
+import { WrapButtonComponent } from './componentes/wrap-button/wrap-button.component';
+import { WrapButtonModule } from './componentes/wrap-button/wrap-button.module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -34,7 +37,8 @@ import { PestanasModule } from './componentes/pestanas/pestanas.module';
     PestanasComponent,
     RadioComponent,
     SpinnerComponent,
-    FileDropComponent
+    FileDropComponent,
+    WrapButtonComponent
   ],
   imports: [
     CommonModule,
@@ -53,7 +57,9 @@ import { PestanasModule } from './componentes/pestanas/pestanas.module';
     SpinnerModule,
     FileDropModule,
     NgxFileDropModule,
-    PestanasModule
+    PestanasModule,
+    WrapButtonModule,
+    NgbModule
   ],
   exports: [
     HayaFenixLibraryComponent,
@@ -64,7 +70,8 @@ import { PestanasModule } from './componentes/pestanas/pestanas.module';
     PestanasComponent,
     RadioComponent,
     SpinnerComponent,
-    FileDropComponent
+    FileDropComponent,
+    WrapButtonComponent
   ]
 })
 export class HayaFenixLibraryModule { }
