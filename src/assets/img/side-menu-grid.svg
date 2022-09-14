@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.405" height="25.501" viewBox="0 0 25.405 25.501">
+  <g id="grid" transform="translate(1.5 1.5)">
+    <rect id="Rectangle" width="8.713" height="8.75" stroke-width="3" stroke="#88cebc" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/>
+    <rect id="Rectangle-2" data-name="Rectangle" width="8.713" height="8.75" transform="translate(13.692)" stroke-width="3" stroke="#88cebc" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/>
+    <rect id="Rectangle-3" data-name="Rectangle" width="8.713" height="8.75" transform="translate(13.692 13.75)" stroke-width="3" stroke="#88cebc" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/>
+    <rect id="Rectangle-4" data-name="Rectangle" width="8.713" height="8.75" transform="translate(0 13.75)" stroke-width="3" stroke="#88cebc" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/>
+  </g>
+</svg>

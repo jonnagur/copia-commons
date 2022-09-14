@@ -1,0 +1,15 @@
+// Deberíamos poner aquí todos los estilos que sobreescriban estilos de bootstrap con una corta explicación
+
+/* Pone el fondo de los modales a blanco */
+ngb-modal-backdrop {
+    background-color: white !important;
+}
+
+// Evita que se muestre el after de un objeto
+.no-after-icon::after {
+    display:  none !important;
+}
+
+.agenda-modal .modal-dialog {
+    max-width: 1310px;
+}

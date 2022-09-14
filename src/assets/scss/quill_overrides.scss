@@ -1,0 +1,27 @@
+.no-background {
+    background: none;
+}
+
+.wysiwyg-smallest {
+    height: 60px;
+}
+
+.disabled {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.no-toolbar .ql-toolbar {
+    display: none;
+}
+
+.no-padding {
+    .ql-editor {
+        padding: 0;
+    }
+}
+
+.ql-editor {
+    max-height: 260px;
+    overflow-y: scroll;
+}
