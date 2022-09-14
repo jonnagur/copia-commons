@@ -19,6 +19,11 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { createTranslateLoader } from '../services/language/language.service';
 import { HttpClient } from '@angular/common/http';
 import { NgxFileDropModule } from 'ngx-file-drop';
+import { PestanasComponent } from './componentes/pestanas/pestanas.component';
+import { PestanasModule } from './componentes/pestanas/pestanas.module';
+import { WrapButtonComponent } from './componentes/wrap-button/wrap-button.component';
+import { WrapButtonModule } from './componentes/wrap-button/wrap-button.module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -28,9 +33,12 @@ import { NgxFileDropModule } from 'ngx-file-drop';
     BotonComponent,
     CampoComponent,
     CheckboxComponent,
+    FileDropComponent,
+    PestanasComponent,
     RadioComponent,
     SpinnerComponent,
-    FileDropComponent
+    FileDropComponent,
+    WrapButtonComponent
   ],
   imports: [
     CommonModule,
@@ -48,7 +56,10 @@ import { NgxFileDropModule } from 'ngx-file-drop';
     RadioModule,
     SpinnerModule,
     FileDropModule,
-    NgxFileDropModule
+    NgxFileDropModule,
+    PestanasModule,
+    WrapButtonModule,
+    NgbModule
   ],
   exports: [
     HayaFenixLibraryComponent,
@@ -56,9 +67,11 @@ import { NgxFileDropModule } from 'ngx-file-drop';
     BotonComponent,
     CampoComponent,
     CheckboxComponent,
+    PestanasComponent,
     RadioComponent,
     SpinnerComponent,
-    FileDropComponent
+    FileDropComponent,
+    WrapButtonComponent
   ]
 })
 export class HayaFenixLibraryModule { }
